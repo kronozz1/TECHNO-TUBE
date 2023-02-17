@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
     <Head>
-        <title>TechnoTube</title>
+        <title>TECHNO TUBE</title>
     <link rel="icon" href="logo.png" type="image/favicon"/>
       </Head>
       <ApolloProvider client={client}>
