@@ -1,5 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
+.gitignore
 # dependencies
 /node_modules
 /.pnp
@@ -18,6 +18,9 @@
 # misc
 .DS_Store
 *.pem
+*.lock
+package-lock
+
 
 # debug
 npm-debug.log*
@@ -29,7 +32,6 @@ yarn-error.log*
 .env*.local
 
 # vercel
-.vercel
 
 # typescript
 *.tsbuildinfo

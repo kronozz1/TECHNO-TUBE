@@ -26,7 +26,7 @@ export default function Upload() {
       url: "https://api.openai.com/v1/completions",
       headers: {
         "Content-Type": "application/json",
-        Authorization: "Bearer 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",
+        Authorization: "Bearer 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",
       },
       data: {
         "model": "text-davinci-003",
@@ -111,7 +111,7 @@ export default function Upload() {
     //   data: form,
     // };
 
-    const oputions = {
+    const options = {
       method: "POST",
       url: "https://api.nftport.xyz/v0/files",
       headers: {
@@ -260,8 +260,7 @@ export default function Upload() {
                   className="w-[90%] text-white placeholder:text-gray-600  rounded-md mt-2 h-12 p-2 border  bg-[#1a1c1f] border-[#444752] focus:outline-none"
                 >
                   <option>Select Category</option>
-            401
-Unauthorized      <option>Music</option>
+                  <option>Music</option>
                   <option>Sports</option>
                   <option>Gaming</option>
                   <option>News</option>
@@ -300,8 +299,7 @@ Unauthorized      <option>Music</option>
               className="hidden"
               ref={thumbnailRef}
               onChange={(e) => {
-                setThumbnail(e.target.files[0]);401
-Unauthorized
+                setThumbnail(e.target.files[0]);
               }}
             />
           </div>
