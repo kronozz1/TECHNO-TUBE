@@ -26,7 +26,7 @@ export default function Upload() {
       url: "https://api.openai.com/v1/completions",
       headers: {
         "Content-Type": "application/json",
-        Authorization: "Bearer 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",
+        Authorization: "Bearer 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",
       },
       data: {
         "model": "text-davinci-003",
